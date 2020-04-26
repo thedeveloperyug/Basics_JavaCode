@@ -1,48 +1,29 @@
 import java.util.Scanner;
 
 /**
- * array2D
+ * array
  */
 public class array {
 
-    public static void main(final String[] args) {
-
-        System.out.println("//Program to Print Matrix:");
-        System.out.println("\n");
-
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter total rows of the matrix.");
+        System.out.println("Enter array index size\n");
+        int a = sc.nextInt();
 
-        int rows = sc.nextInt();
-        System.out.println();
+        int numbers1 []= new int [a] ;
+        System.out.println("Enter elements to print");
 
-        System.out.println("Enter total coloumn of the matrix.");
-        int cols = sc.nextInt();
-        System.out.println();
 
-        int a[][] = new int[rows][cols];
 
-        System.out.println("Enter the matrix details in row wise.");
-
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
-
-                a[i][j] = sc.nextInt();
-
-            }
-        }
-            System.out.println();
-            System.out.print("Your matrix is:\t\n");
-        for (int i = 0; i < rows; i++) {
-            System.out.println();
-            for (int j = 0; j < cols; j++) {
-
-                System.out.print("  " + a[i][j] + "  ");
-
-            }
+        for(int i = 0; i < a ; i++){
+            numbers1 [i] = sc.nextInt();
         }
 
-        System.out.println("\n");
+        System.out.print("Your element is:  ");
+
+        for(int i = 0; i < a ; i++){
+           System.out.print(numbers1[i]+"  ");
+        }
 
     }
 }
