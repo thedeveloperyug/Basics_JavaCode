@@ -13,8 +13,6 @@ public class array {
         int numbers1 []= new int [a] ;
         System.out.println("Enter elements to print");
 
-
-
         for(int i = 0; i < a ; i++){
             numbers1 [i] = sc.nextInt();
         }
