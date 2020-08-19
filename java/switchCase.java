@@ -18,6 +18,7 @@ public class switchCase {
         int operation = sc.nextInt();
 
         System.out.println();
+        
         switch (operation) {
             case 0:
                 System.exit(0);
