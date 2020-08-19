@@ -66,9 +66,7 @@ System.out.println("your 2nd matrix is: ");
           System.out.print(c[i][j]+" ");
         } 
 
-    }
+      }
 
     }
-
-
 }
