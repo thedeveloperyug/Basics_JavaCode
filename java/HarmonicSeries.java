@@ -16,9 +16,7 @@ public class HarmonicSeries {
         for(float i = 1; i <= n ; i++){
              sum += 1/i;
              
-             System.out.println("Your Step 1 +"  + " 1/" + (int)i+ " is = "  + sum);
-            
-
+             System.out.println("Your Step 1 +"  + " 1/" + (int)i+ " is = "  + sum);           
         }
         System.out.println("\n Your Harmonic Sum is = " + sum);
         System.out.println();
