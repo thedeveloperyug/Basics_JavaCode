@@ -33,8 +33,6 @@ public class Greater {
                 System.out.println("The Greator no is " + d);
             }
         }
-        
-
        else  if (c > b) {
                     if (c > d) {
 
@@ -44,13 +42,10 @@ public class Greater {
                         System.out.println("The Greator number is " + d);
                     }
            
-        }
+                 }
                  else {
                     System.out.println("The Greator number is " + d);
                 }
 
             }
         }
-
-    
-
