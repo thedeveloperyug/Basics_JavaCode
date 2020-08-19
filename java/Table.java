@@ -16,8 +16,7 @@ public class Table {
 
             if(j < 31){
                 System.out.println("");
-             
-                
+                           
             }
 
        for (i = 1; i <= 10; i++) {
