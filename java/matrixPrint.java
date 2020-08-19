@@ -42,6 +42,5 @@ public class matrixPrint {
         }
 
         System.out.println("\n");
-
     }
 }
